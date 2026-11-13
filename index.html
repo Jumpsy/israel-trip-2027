@@ -1,0 +1,374 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Ten Days in Israel · March 2027</title>
+<meta name="description" content="A 10-day Israel trip for two from Toronto: flights, top-rated hotels, day-by-day plan and budget.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,500;0,600;1,500&family=Plus+Jakarta+Sans:wght@400;500;600;700&display=swap" rel="stylesheet">
+<style>
+:root{--stone:#F8F5EE;--card:#EFECE2;--line:#DDD6C6;--ink:#1A1917;--soft:#54504A;--muted:#6F6A62;--blue:#1A365D;--olive:#4E5B42;--clay:#A8472E;--gold:#E3B067;--night:#14263F;--mist:#C9D6E3;--pick:#DCE4EE}
+*{box-sizing:border-box;margin:0;padding:0}
+html{scroll-behavior:smooth}
+body{background:var(--stone);color:var(--ink);font-family:'Plus Jakarta Sans',Arial,sans-serif;font-size:17px;line-height:1.6;-webkit-font-smoothing:antialiased}
+img{display:block;max-width:100%}
+a{color:var(--blue)}
+.serif,h1,h2{font-family:'Cormorant Garamond',Georgia,serif;font-weight:600;line-height:1.05;color:var(--blue)}
+.wrap{max-width:1180px;margin:0 auto;padding:0 24px}
+.eyebrow{font-size:13px;font-weight:700;letter-spacing:.22em;text-transform:uppercase;color:var(--clay);margin-bottom:12px}
+section{padding:96px 0;scroll-margin-top:60px}
+h2{font-size:clamp(40px,6vw,68px);margin-bottom:16px}
+.lede{font-size:19px;color:var(--soft);max-width:680px;margin-bottom:40px}
+nav{position:sticky;top:0;z-index:20;background:rgba(248,245,238,.92);backdrop-filter:blur(8px);border-bottom:1px solid var(--line)}
+nav .wrap{display:flex;align-items:center;justify-content:space-between;height:60px;gap:16px}
+nav .brand{font-family:'Cormorant Garamond',Georgia,serif;font-size:24px;font-weight:600;color:var(--blue);text-decoration:none;white-space:nowrap}
+nav ul{display:flex;gap:22px;list-style:none;overflow-x:auto;scrollbar-width:none}
+nav ul::-webkit-scrollbar{display:none}
+nav a{font-size:14px;font-weight:600;color:var(--soft);text-decoration:none;white-space:nowrap}
+nav a:hover{color:var(--clay)}
+/* hero */
+.hero{position:relative;min-height:92vh;display:flex;align-items:flex-end;padding:0 0 72px;color:var(--stone);overflow:hidden}
+.hero img{position:absolute;inset:0;width:100%;height:100%;object-fit:cover}
+.hero::after{content:"";position:absolute;inset:0;background:linear-gradient(90deg,rgba(20,38,63,.9) 0%,rgba(20,38,63,.55) 50%,rgba(20,38,63,.1) 85%)}
+.hero .wrap{position:relative;z-index:1;width:100%}
+.hero h1{font-size:clamp(64px,11vw,148px);color:var(--stone)}
+.hero h1 i{color:var(--gold)}
+.hero .eyebrow{color:var(--gold)}
+.hero p.sub{font-size:clamp(18px,2vw,22px);max-width:600px;margin:24px 0 40px;color:var(--stone)}
+.meta{display:flex;flex-wrap:wrap;gap:20px 48px}
+.meta div{border-top:2px solid var(--gold);padding-top:12px}
+.meta .k{font-size:12px;font-weight:700;letter-spacing:.2em;text-transform:uppercase;color:var(--gold)}
+.meta .v{font-size:18px;font-weight:500}
+/* glance */
+.route{display:grid;grid-template-columns:repeat(4,1fr);gap:24px}
+.stop{border-top:4px solid var(--blue);padding-top:20px}
+.stop.o{border-color:var(--olive)}.stop.c{border-color:var(--clay)}.stop.g{border-color:#B07A2C}
+.stop .n{font-family:'Cormorant Garamond',Georgia,serif;font-size:84px;font-weight:600;color:var(--blue);line-height:1.1}
+.stop .u{font-size:12px;font-weight:700;letter-spacing:.18em;text-transform:uppercase;color:var(--muted);margin-bottom:10px}
+.stop h3{font-size:20px;margin-bottom:4px}
+.stop p{color:var(--soft);font-size:15px}
+.stats{display:grid;grid-template-columns:repeat(3,1fr);gap:16px;margin-top:48px}
+.stat{background:var(--card);border-radius:10px;padding:22px 26px}
+.stat .n{font-family:'Cormorant Garamond',Georgia,serif;font-size:44px;font-weight:600;color:var(--blue);line-height:1.1}
+.stat .l{color:var(--soft);font-size:15px}
+/* flights */
+.alt-bg{background:var(--card)}
+.fl{display:grid;grid-template-columns:1.3fr 1fr;gap:32px;align-items:start}
+.pass{background:var(--blue);color:var(--stone);border-radius:16px;padding:36px 40px}
+.pass .tag{font-size:12px;font-weight:700;letter-spacing:.2em;text-transform:uppercase;color:var(--gold)}
+.pass h3{font-size:26px;margin:8px 0 18px}
+.leg{border-top:1px solid rgba(248,245,238,.25);padding:14px 0}
+.leg .w{font-size:12px;font-weight:700;letter-spacing:.16em;text-transform:uppercase;color:var(--gold)}
+.leg .t{font-size:20px;font-weight:500}
+.leg .v{font-size:14px;color:var(--mist)}
+.price{display:flex;flex-wrap:wrap;align-items:baseline;gap:12px;margin-top:12px}
+.price .big{font-family:'Cormorant Garamond',Georgia,serif;font-size:64px;font-weight:600;line-height:1}
+.price .per{color:var(--mist);font-size:15px}
+.alts{display:grid;gap:14px}
+.alt{background:var(--stone);border-radius:10px;padding:18px 22px}
+.alt .row{display:flex;justify-content:space-between;align-items:baseline;gap:12px}
+.alt h3{font-size:17px}
+.alt .amt{font-family:'Cormorant Garamond',Georgia,serif;font-size:32px;font-weight:600;color:var(--clay)}
+.alt p{color:var(--soft);font-size:14px}
+details{margin-top:28px;background:var(--stone);border-radius:12px;border:1px solid var(--line)}
+summary{cursor:pointer;padding:18px 22px;font-weight:700;color:var(--blue);list-style:none}
+summary::after{content:" +";color:var(--clay)}
+details[open] summary::after{content:" –"}
+.tables{display:grid;grid-template-columns:repeat(auto-fit,minmax(260px,1fr));gap:24px;padding:0 22px 22px}
+table{width:100%;border-collapse:collapse;font-size:14px}
+th{text-align:left;font-size:12px;letter-spacing:.12em;text-transform:uppercase;color:var(--muted);padding:8px 6px;border-bottom:2px solid var(--line)}
+td{padding:8px 6px;border-bottom:1px solid var(--line)}
+td:last-child,th:last-child{text-align:right;white-space:nowrap}
+tr.pick td{background:var(--pick);font-weight:600}
+.note{font-size:13px;color:var(--muted);margin-top:14px}
+/* hotels */
+.hotels{display:grid;grid-template-columns:repeat(4,1fr);gap:20px}
+.hotel{background:var(--card);border-radius:12px;padding:24px;border-top:5px solid var(--blue);display:flex;flex-direction:column}
+.hotel.o{border-color:var(--olive)}.hotel.c{border-color:var(--clay)}.hotel.g{border-color:#B07A2C}
+.hotel .wh{font-size:12px;font-weight:700;letter-spacing:.16em;text-transform:uppercase;color:var(--muted)}
+.hotel .nm{font-family:'Cormorant Garamond',Georgia,serif;font-size:32px;font-weight:600;color:var(--blue);line-height:1.1;margin:6px 0 10px}
+.hotel .r{font-weight:700}
+.hotel .p{color:var(--soft);margin-bottom:10px}
+.hotel .y{font-size:14px;color:var(--soft)}
+.hotel .s{font-size:13px;color:var(--muted);margin-top:auto;padding-top:12px;border-top:1px solid var(--line)}
+.backups{display:grid;grid-template-columns:repeat(4,1fr);gap:24px;margin-top:40px}
+.backups h4{font-size:12px;letter-spacing:.18em;text-transform:uppercase;color:var(--clay);border-top:2px solid var(--clay);padding-top:12px;margin-bottom:10px}
+.backups li{list-style:none;font-size:14px;color:var(--soft);margin-bottom:8px}
+.backups b{color:var(--ink);display:block;font-size:15px}
+/* days */
+.region{display:grid;grid-template-columns:0.9fr 1.1fr;min-height:640px}
+.region:nth-child(even) .rimg{order:2}
+.rimg{position:relative;min-height:340px}
+.rimg img{position:absolute;inset:0;width:100%;height:100%;object-fit:cover}
+.rbody{padding:72px 56px;display:flex;flex-direction:column;justify-content:center}
+.rbody h2{font-size:clamp(36px,4.5vw,56px)}
+.rbody .lede{margin-bottom:24px}
+.d{display:grid;grid-template-columns:96px 1fr;gap:20px;padding:18px 0;border-top:1px solid var(--line)}
+.d .dn{font-size:12px;font-weight:700;letter-spacing:.16em;text-transform:uppercase;color:var(--clay)}
+.d .dd{font-family:'Cormorant Garamond',Georgia,serif;font-size:26px;font-weight:600;color:var(--blue);line-height:1.1}
+.d h3{font-size:18px;margin-bottom:2px}
+.d p{color:var(--soft);font-size:15px}
+.rnote{font-size:14px;font-weight:600;color:var(--olive);margin-top:18px}
+/* desert */
+.desert{background:var(--night);color:var(--stone)}
+.desert h2{color:var(--stone)}.desert .eyebrow{color:var(--gold)}.desert .lede{color:var(--mist)}
+.dgrid{display:grid;grid-template-columns:repeat(3,1fr);gap:20px}
+.dcard{border:1px solid rgba(248,245,238,.2);border-radius:12px;padding:24px}
+.dcard .k{font-size:12px;font-weight:700;letter-spacing:.16em;text-transform:uppercase;color:var(--gold)}
+.dcard .pr{font-family:'Cormorant Garamond',Georgia,serif;font-size:44px;font-weight:600}
+.dcard h3{font-size:18px;margin:4px 0}
+.dcard p{color:var(--mist);font-size:14px}
+/* food */
+.food{display:grid;grid-template-columns:repeat(3,1fr);gap:32px}
+.food h4{font-size:12px;letter-spacing:.18em;text-transform:uppercase;color:var(--clay);border-top:3px solid var(--clay);padding-top:14px;margin-bottom:14px}
+.food .it{margin-bottom:18px}
+.food h3{font-size:19px}
+.food p{color:var(--soft);font-size:15px}
+/* budget */
+.bud{display:grid;grid-template-columns:1.3fr 1fr;gap:40px;align-items:start}
+.bud table{font-size:17px}
+.bud td{padding:12px 6px}
+.total{background:var(--blue);color:var(--stone);border-radius:16px;padding:32px 36px}
+.total .k{font-size:12px;font-weight:700;letter-spacing:.2em;text-transform:uppercase;color:var(--gold)}
+.total .v{font-family:'Cormorant Garamond',Georgia,serif;font-size:84px;font-weight:600;line-height:1.05}
+.total p{color:var(--mist)}
+.saver{margin-top:20px}
+.saver h3{color:var(--olive);font-size:19px}
+.saver p{color:var(--soft);font-size:15px}
+/* before */
+.before{background:var(--night);color:var(--stone)}
+.before h2{color:var(--stone)}.before .eyebrow{color:var(--gold)}
+.tips{display:grid;grid-template-columns:repeat(2,1fr);gap:28px 56px}
+.tip{display:grid;grid-template-columns:44px 1fr;gap:12px}
+.tip .num{font-family:'Cormorant Garamond',Georgia,serif;font-size:44px;font-weight:600;color:var(--gold);line-height:1}
+.tip h3{font-size:19px;margin-bottom:2px}
+.tip p{color:var(--mist);font-size:15px}
+.tip a{color:var(--gold)}
+/* close */
+.close{position:relative;min-height:70vh;display:flex;align-items:flex-end;padding-bottom:72px;color:var(--stone);overflow:hidden}
+.close img{position:absolute;inset:0;width:100%;height:100%;object-fit:cover}
+.close::after{content:"";position:absolute;inset:0;background:linear-gradient(0deg,rgba(20,38,63,.92),rgba(20,38,63,.2))}
+.close .wrap{position:relative;z-index:1;width:100%}
+.close h2{color:var(--stone);font-size:clamp(52px,8vw,104px)}
+.close h2 i{color:var(--gold)}
+.close .eyebrow{color:var(--gold)}
+footer{background:var(--night);color:var(--mist);font-size:13px;padding:28px 0}
+footer a{color:var(--gold)}
+/* motion */
+.reveal{opacity:0;transform:translateY(18px);transition:opacity .7s ease,transform .7s ease}
+.reveal.in{opacity:1;transform:none}
+@media (prefers-reduced-motion:reduce){.reveal{opacity:1;transform:none;transition:none}html{scroll-behavior:auto}}
+@media (max-width:960px){
+  .route,.hotels,.backups{grid-template-columns:repeat(2,1fr)}
+  .fl,.bud{grid-template-columns:1fr}
+  .region{grid-template-columns:1fr}
+  .region:nth-child(even) .rimg{order:0}
+  .rbody{padding:48px 24px}
+  .dgrid,.food{grid-template-columns:1fr}
+}
+@media (max-width:600px){
+  section{padding:64px 0}
+  .route,.hotels,.backups,.stats,.tips{grid-template-columns:1fr}
+  .pass{padding:28px 24px}
+  .price .big{font-size:52px}
+  nav ul{gap:16px}
+}
+</style>
+</head>
+<body>
+
+<nav><div class="wrap"><a class="brand" href="#top">Israel ’27</a><ul>
+<li><a href="#glance">Overview</a></li><li><a href="#flights">Flights</a></li><li><a href="#hotels">Hotels</a></li><li><a href="#days">Days</a></li><li><a href="#food">Food</a></li><li><a href="#budget">Budget</a></li><li><a href="#before">Before booking</a></li><li><a href="script.html">Script</a></li>
+</ul></div></nav>
+
+<header class="hero" id="top">
+<img src="img/jerusalem.jpg" alt="The walls of Jerusalem’s Old City at golden hour">
+<div class="wrap">
+<p class="eyebrow">A trip for two · March 2027</p>
+<h1>Ten Days<br>in <i>Israel</i></h1>
+<p class="sub">Beaches, Galilee hills, Shabbat in Jerusalem and a float on the Dead Sea, done smart and on budget.</p>
+<div class="meta">
+<div><p class="k">Dates</p><p class="v">Sat 13 – Mon 22 Mar</p></div>
+<div><p class="k">From</p><p class="v">Toronto (YYZ)</p></div>
+<div><p class="k">All-in for two</p><p class="v">≈ CA$7,660</p></div>
+</div>
+</div>
+</header>
+
+<section id="glance"><div class="wrap">
+<p class="eyebrow">The trip at a glance</p>
+<h2>Four bases, one easy loop</h2>
+<p class="lede">Tel Aviv first to shake off the flight, up north for spring in the Galilee, Jerusalem for Shabbat, then a desert day before flying home.</p>
+<div class="route">
+<div class="stop reveal"><p class="n">3</p><p class="u">nights · Sat–Tue</p><h3>Tel Aviv</h3><p>Beaches, Jaffa, markets and bikes.</p></div>
+<div class="stop o reveal"><p class="n">2</p><p class="u">nights · Tue–Thu</p><h3>Galilee</h3><p>Rosh Pinna, Tzfat, the Kinneret.</p></div>
+<div class="stop c reveal"><p class="n">3</p><p class="u">nights · Thu–Sun</p><h3>Jerusalem</h3><p>Old City, the shuk, a full Shabbat.</p></div>
+<div class="stop g reveal"><p class="n">1</p><p class="u">night · Sun–Mon</p><h3>Dead Sea → Jaffa</h3><p>Masada and a float, then dinner by the port.</p></div>
+</div>
+<div class="stats">
+<div class="stat reveal"><p class="n">10 days</p><p class="l">on the ground, 9 nights</p></div>
+<div class="stat reveal"><p class="n">≈ $3,830</p><p class="l">per person, all-in (CAD)</p></div>
+<div class="stat reveal"><p class="n">1 car</p><p class="l">6 days, Tue → airport</p></div>
+</div>
+</div></section>
+
+<section id="flights" class="alt-bg"><div class="wrap">
+<p class="eyebrow">Flights · Toronto ⇄ Tel Aviv</p>
+<h2>Best value: LOT via Warsaw</h2>
+<p class="lede">We compared every fare Google Flights listed for four March weeks. LOT hits the sweet spot of price and travel time.</p>
+<div class="fl">
+<div class="pass reveal">
+<p class="tag">Our pick · economy, round trip</p>
+<h3>LOT Polish Airlines · via Warsaw</h3>
+<div class="leg"><p class="w">Out · Fri 12 Mar</p><p class="t">YYZ 10:35 PM → TLV 7:45 PM (Sat)</p><p class="v">14 h 10 m · 1 h 55 m layover in Warsaw</p></div>
+<div class="leg"><p class="w">Home · Mon 22 Mar</p><p class="t">TLV 10:45 AM → YYZ 9:35 PM</p><p class="v">16 h 50 m · 3 h 10 m layover in Warsaw</p></div>
+<div class="price"><p class="big">≈ CA$1,850</p><p class="per">per person · ≈ $3,700 for two</p></div>
+</div>
+<div class="alts">
+<div class="alt reveal"><div class="row"><h3>Cheaper, but longer</h3><p class="amt">$1,580</p></div><p>Ethiopian via Addis Ababa. Saves ≈ $540 for two, adds ~6 hours each way.</p></div>
+<div class="alt reveal"><div class="row"><h3>Most comfortable</h3><p class="amt">$2,335</p></div><p>Air Canada nonstop, 10 h 35 m, Thu 11 → Sun 21 Mar ($1,958 via travel agencies).</p></div>
+<div class="alt reveal"><div class="row"><h3>Fastest + cheaper</h3><p class="amt">$1,688</p></div><p>Air France via Paris if you shift to 10 → 20 Mar.</p></div>
+<div class="alt reveal"><div class="row"><h3>Flexible dates?</h3><p class="amt">$1,247</p></div><p>Late January (20–30 Jan) was the cheapest window.</p></div>
+</div>
+</div>
+<details>
+<summary>See every fare we found (4 weeks)</summary>
+<div class="tables">
+<table><tr><th>12 → 22 Mar</th><th>pp</th></tr>
+<tr><td>Porter+Transat+Ryanair+Wizz* · 33 h</td><td>$1,379</td></tr><tr><td>LOT · Warsaw+Kraków · 22 h 50</td><td>$1,562</td></tr><tr><td>Ethiopian · Addis · 20 h 10</td><td>$1,580</td></tr><tr><td>LOT · Warsaw (10 h layover)</td><td>$1,582</td></tr><tr><td>SAS+Air France+El Al · 27 h 45</td><td>$1,721</td></tr><tr><td>KLM · Amsterdam+Bucharest</td><td>$1,751</td></tr><tr class="pick"><td>LOT · Warsaw · 14 h 10 (pick)</td><td>$1,850</td></tr><tr><td>Delta+El Al · New York (long)</td><td>$1,973</td></tr><tr><td>Delta+El Al · New York</td><td>$2,036</td></tr><tr><td>Air Canada+Austrian · Vienna</td><td>$2,038</td></tr><tr><td>United · Newark</td><td>$2,122</td></tr><tr><td>Air Canada+SWISS · Zürich</td><td>$2,184</td></tr><tr><td>Air France+KLM · Paris</td><td>$2,255</td></tr></table>
+<table><tr><th>10 → 20 Mar</th><th>pp</th></tr>
+<tr><td>Aer Lingus+Wizz* · 18 h 20</td><td>$1,575</td></tr><tr><td>KLM · 2 stops · 23 h</td><td>$1,644</td></tr><tr class="pick"><td>Air France · Paris · 12 h 45</td><td>$1,688</td></tr><tr><td>LOT · Warsaw · 14 h 10</td><td>$1,767–1,864</td></tr><tr><td>Ethiopian · Addis</td><td>$1,672–1,980</td></tr><tr><td>AC+Austrian · Vienna</td><td>$1,853–2,063</td></tr><tr><td>AC+Lufthansa · Munich</td><td>$1,795–2,004</td></tr><tr><td>AC+SWISS · Zürich</td><td>$1,839–2,049</td></tr><tr><td>AC+Lufthansa · Frankfurt</td><td>$2,015</td></tr><tr><td>Delta · New York</td><td>$2,219</td></tr><tr><td>United · Newark</td><td>$2,233–2,369</td></tr></table>
+<table><tr><th>11 → 21 Mar</th><th>pp</th></tr>
+<tr><td>Azores+Ryanair+Wizz* · 30 h</td><td>$1,426</td></tr><tr><td>Transat+easyJet+Aegean* · 22 h</td><td>$1,481</td></tr><tr><td>Ethiopian · Addis · 20 h 10</td><td>$1,684–1,875</td></tr><tr><td>LOT · 2 stops · 46 h</td><td>$1,653</td></tr><tr><td>LOT · Warsaw · 17 h 35</td><td>$1,732–1,859</td></tr><tr><td>AC+SWISS · Zürich</td><td>$1,927–2,304</td></tr><tr><td>AC+Lufthansa · Frankfurt</td><td>$1,943–2,195</td></tr><tr class="pick"><td>Air Canada · nonstop · 10 h 35</td><td>$1,958–2,335</td></tr><tr><td>AC+Lufthansa · Munich</td><td>$2,313–2,332</td></tr><tr><td>United · Newark</td><td>$2,406</td></tr><tr><td>Air France · Paris</td><td>$2,607</td></tr></table>
+<table><tr><th>13 → 23 Mar</th><th>pp</th></tr>
+<tr><td>Transat+easyJet+Wizz* · 28 h 40</td><td>$1,500</td></tr><tr class="pick"><td>Ethiopian · Addis · 20 h 10</td><td>$1,516–1,604</td></tr><tr><td>Transat+Wizz* · London · 16 h 25</td><td>$1,562</td></tr><tr><td>KLM+Air France · 2 stops</td><td>$1,584</td></tr><tr><td>LOT · Warsaw · 14 h 10</td><td>$1,777–1,878</td></tr><tr><td>Air France · Paris</td><td>$1,777–2,071</td></tr><tr><td>BA+American · London</td><td>$1,866</td></tr><tr><td>AC+Austrian · Vienna</td><td>$1,893–1,977</td></tr><tr><td>United · Newark</td><td>$1,930</td></tr><tr><td>AC+SWISS · Zürich</td><td>$1,985–2,058</td></tr><tr><td>AC+Lufthansa · Munich</td><td>$2,076–2,166</td></tr><tr><td>Delta · New York</td><td>$2,907–2,984</td></tr></table>
+</div>
+<p class="note" style="padding:0 22px 22px">Round trip, economy, CAD per person incl. taxes, from Google Flights on 13 Nov 2026. A range = airline price vs. cheapest travel-agency price. * Self-transfer on separate tickets: a missed connection isn’t covered and bags cost extra.</p>
+</details>
+</div></section>
+
+<section id="hotels"><div class="wrap">
+<p class="eyebrow">Where we sleep</p>
+<h2>Top-rated, fairly priced</h2>
+<p class="lede">Each stay was checked twice on Google Hotels for our exact dates: once for value, once for the highest guest ratings.</p>
+<div class="hotels">
+<div class="hotel reveal"><p class="wh">Tel Aviv · 3 nights</p><p class="nm">The Saul</p><p class="r">★ 4.8 · 469 reviews</p><p class="p">≈ CA$191 / night</p><p class="y">Industrial-chic boutique in the centre, walk to the beach and Dizengoff.</p><p class="s">Splurge: Backstage (Atlas), ★ 4.9, $322</p></div>
+<div class="hotel o reveal"><p class="wh">Galilee · 2 nights</p><p class="nm">Olea, Rosh Pinna</p><p class="r">★ 4.8 · 199 reviews</p><p class="p">≈ CA$248 / night</p><p class="y">Stone village above the Hula Valley, 20 min to Tzfat and the Kinneret.</p><p class="s">Splurge: Edmond Hotel & Spa, ★ 4.7, $489</p></div>
+<div class="hotel c reveal"><p class="wh">Jerusalem · 3 nights</p><p class="nm">Prima Royale</p><p class="r">★ 4.6 · 3.5K reviews</p><p class="p">≈ CA$257 / night</p><p class="y">Kosher breakfast, Shabbat-friendly, walk to Ben Yehuda and the Old City.</p><p class="s">Splurge: Dan Boutique, ★ 4.6, $348</p></div>
+<div class="hotel g reveal"><p class="wh">Tel Aviv · last night</p><p class="nm">Abraham Tel Aviv</p><p class="r">★ 4.6 · 6.5K reviews</p><p class="p">≈ CA$149 / night</p><p class="y">Lively and social, free breakfast, 20 min to the airport.</p><p class="s">Book a private room</p></div>
+</div>
+<div class="backups">
+<div><h4>Tel Aviv backups</h4><ul><li><b>Ink Hotel</b>★ 4.7 · $213 · pool</li><li><b>Market House, Jaffa</b>★ 4.7 · $339 · breakfast</li><li><b>Beit Immanuel, Jaffa</b>★ 4.7 · $187</li></ul></div>
+<div><h4>Galilee backups</h4><ul><li><b>The Way Inn, Tzfat</b>★ 4.7 · $298</li><li><b>Caesar Premier Tiberias</b>★ 4.6 · $404</li><li><b>Europa 1917, Tiberias</b>★ 4.3 · $222</li></ul></div>
+<div><h4>Jerusalem backups</h4><ul><li><b>Leonardo Jerusalem</b>★ 4.5 · $291 · pool</li><li><b>Bezalel Hotel</b>★ 4.6 · $340 · breakfast</li><li><b>Biazi Hotel</b>★ 4.9 · $330</li></ul></div>
+<div><h4>Last-night backups</h4><ul><li><b>Abba Hotel, Jaffa</b>★ 4.7 · $253</li><li><b>Yam (Atlas)</b>★ 4.7 · $254</li><li><b>The O Pod Hotel</b>★ 4.4 · $95</li></ul></div>
+</div>
+<p class="note">Google guest ratings · CAD per night for 2 adults on our dates · checked 13 Nov 2026. Adults-only hotels left out.</p>
+</div></section>
+
+<section id="days" style="padding:0">
+<div class="region">
+<div class="rimg"><img src="img/telaviv.jpg" alt="Tel Aviv’s beachfront at sunset seen from Jaffa" loading="lazy"></div>
+<div class="rbody"><p class="eyebrow">Days 1–3 · Tel Aviv</p><h2>Sea, shuks and sunsets</h2><p class="lede">A slow start after the flight. Almost everything here is free.</p>
+<div class="d"><div><p class="dn">Sat</p><p class="dd">13 Mar</p></div><div><h3>Land at 7:45 PM</h3><p>Taxi (≈ NIS 180) to The Saul, late dinner on Dizengoff.</p></div></div>
+<div class="d"><div><p class="dn">Sun</p><p class="dd">14 Mar</p></div><div><h3>Old Jaffa & the beach walk</h3><p>Flea market, stone alleys, hummus at Abu Hassan, sunset at Frishman Beach.</p></div></div>
+<div class="d"><div><p class="dn">Mon</p><p class="dd">15 Mar</p></div><div><h3>Bikes, Carmel Market, street art</h3><p>Tel-O-Fun bikes to the Port and Yarkon Park, sabich in the shuk, Neve Tzedek, Florentin graffiti.</p></div></div>
+</div></div>
+<div class="region">
+<div class="rimg"><img src="img/galilee.jpg" alt="Green Galilee hills above the Sea of Galilee" loading="lazy"></div>
+<div class="rbody"><p class="eyebrow">Days 4–6 · Galilee</p><h2>Hills, cranes and Tzfat</h2><p class="lede">March means wildflowers and the great crane migration.</p>
+<div class="d"><div><p class="dn">Tue</p><p class="dd">16 Mar</p></div><div><h3>Pick up the car, head north</h3><p>Caesarea’s Roman harbour, lunch in Zichron Ya’akov, sunset in old Rosh Pinna.</p></div></div>
+<div class="d"><div><p class="dn">Wed</p><p class="dd">17 Mar</p></div><div><h3>Agamon Hula & Tzfat</h3><p>Golf carts around the Hula lake among thousands of cranes, then Tzfat’s artists’ quarter.</p></div></div>
+<div class="d"><div><p class="dn">Thu</p><p class="dd">18 Mar</p></div><div><h3>Mount Arbel at sunrise</h3><p>Cliff-edge hike over the Kinneret, then 2.5 h to Jerusalem on Route 6.</p></div></div>
+<p class="rnote">Stay west of Highway 98 and 5 km+ from Lebanon (Canada’s no-go zones).</p>
+</div></div>
+<div class="region">
+<div class="rimg"><img src="img/shuk.jpg" alt="Lantern-lit spice and pita stalls in Machane Yehuda market" loading="lazy"></div>
+<div class="rbody"><p class="eyebrow">Days 6–8 · Jerusalem</p><h2>Stone, shuk and Shabbat</h2><p class="lede">The heart of the trip, timed so Shabbat lands in the middle.</p>
+<div class="d"><div><p class="dn">Thu</p><p class="dd">18 Mar</p></div><div><h3>Yad Vashem, then the shuk at night</h3><p>Afternoon at Yad Vashem (free). Thursday night Machane Yehuda becomes a street party.</p></div></div>
+<div class="d"><div><p class="dn">Fri</p><p class="dd">19 Mar</p></div><div><h3>Old City and Shabbat at the Kotel</h3><p>Ramparts walk, Jewish Quarter, Kotel Tunnels, the Friday shuk rush, Kabbalat Shabbat at the Wall.</p></div></div>
+<div class="d"><div><p class="dn">Sat</p><p class="dd">20 Mar</p></div><div><h3>A slow Shabbat</h3><p>Yemin Moshe, the Montefiore Windmill, the Israel Museum’s Dead Sea Scrolls, Ben Yehuda after dark.</p></div></div>
+<p class="rnote">No trains or buses from Friday afternoon to Saturday night.</p>
+</div></div>
+<div class="region">
+<div class="rimg"><img src="img/deadsea.jpg" alt="Masada at sunrise above the Dead Sea" loading="lazy"></div>
+<div class="rbody"><p class="eyebrow">Days 9–10 · Dead Sea & home</p><h2>Float, then fly</h2><p class="lede">One big desert day, then a last night near the airport, because every flight home leaves in the morning.</p>
+<div class="d"><div><p class="dn">Sun</p><p class="dd">21 Mar</p></div><div><h3>Masada, Ein Gedi, the float</h3><p>Leave 6:30 via Beersheba and Arad. Cable car up Masada, ibex at Ein Gedi, float at Ein Bokek’s free beach.</p></div></div>
+<div class="d"><div><p class="dn">Sun</p><p class="dd">evening</p></div><div><h3>Farewell dinner in Jaffa</h3><p>About 2.5 h back via Arad, sunset dinner at the old port, sleep at Abraham.</p></div></div>
+<div class="d"><div><p class="dn">Mon</p><p class="dd">22 Mar</p></div><div><h3>Home</h3><p>7:30 AM to Ben Gurion, return the car, 10:45 AM flight, Toronto by 9:35 PM.</p></div></div>
+<p class="rnote">Drive via Arad, not Route 90 from Jericho (West Bank).</p>
+</div></div>
+</section>
+
+<section class="desert"><div class="wrap">
+<p class="eyebrow">Optional upgrade</p>
+<h2>A night in the desert</h2>
+<p class="lede">Swap Jerusalem’s Saturday night for the desert: leave after Shabbat, climb Masada at sunrise. With Kfar Hanokdim it’s $137 cheaper.</p>
+<div class="dgrid">
+<div class="dcard reveal"><p class="k">Best value</p><p class="pr">$120</p><h3>Kfar Hanokdim · ★ 4.4</h3><p>Bedouin-style desert village near Masada’s west gate. Camels, campfire, pool.</p></div>
+<div class="dcard reveal"><p class="k">Top rated</p><p class="pr">$140</p><h3>Dead Sea Sun Guest House · ★ 4.8</h3><p>Small guesthouse in Arad, 25 min above the Dead Sea (81 reviews).</p></div>
+<div class="dcard reveal"><p class="k">Splurge</p><p class="pr">$376</p><h3>Isrotel Nevo · ★ 4.4</h3><p>Five-star resort in Ein Bokek with spa, pools and breakfast.</p></div>
+</div>
+</div></section>
+
+<section id="food"><div class="wrap">
+<p class="eyebrow">Eat like a local</p>
+<h2>The cheapest meals are the best ones</h2>
+<p class="lede">Budget ≈ CA$85 a day for two: hotel breakfast, street-food lunch, casual dinner. NIS 1 ≈ CA$0.38.</p>
+<div class="food">
+<div><h4>Tel Aviv & Jaffa</h4><div class="it"><h3>Abu Hassan, Jaffa</h3><p>Hummus legend, closes when it sells out. ≈ NIS 30</p></div><div class="it"><h3>Sabich Frishman</h3><p>Eggplant, egg and amba in pita. ≈ NIS 30</p></div><div class="it"><h3>Miznon</h3><p>Stuffed pitas and the roasted cauliflower. ≈ NIS 50</p></div></div>
+<div><h4>Galilee</h4><div class="it"><h3>Druze pita with labneh</h3><p>Roadside, baked on a dome while you wait. ≈ NIS 25</p></div><div class="it"><h3>Zichron Ya’akov</h3><p>Lunch on the old pedestrian street in wine country.</p></div><div class="it"><h3>Rosh Pinna bakery picnic</h3><p>Pack it for the golf carts at Agamon Hula.</p></div></div>
+<div><h4>Jerusalem</h4><div class="it"><h3>Azura, Machane Yehuda</h3><p>Slow-cooked Kurdish and Iraqi stews since 1952. ≈ NIS 60</p></div><div class="it"><h3>Marzipan Bakery</h3><p>Gooey chocolate rugelach, buy a box for Shabbat.</p></div><div class="it"><h3>Pinati</h3><p>No-frills hummus off Ben Yehuda. ≈ NIS 35</p></div></div>
+</div>
+</div></section>
+
+<section id="budget" class="alt-bg"><div class="wrap">
+<p class="eyebrow">The budget</p>
+<h2>What it costs for two</h2>
+<div class="bud">
+<table>
+<tr><th>Item</th><th>For two (CAD)</th></tr>
+<tr><td>Flights, LOT round trip × 2</td><td>$3,700</td></tr>
+<tr><td>Hotels, 9 nights</td><td>$1,990</td></tr>
+<tr><td>Rental car 6 days + gas</td><td>$600</td></tr>
+<tr><td>Taxis, trains, parking</td><td>$150</td></tr>
+<tr><td>Sights & activities</td><td>$350</td></tr>
+<tr><td>Food, 10 days</td><td>$850</td></tr>
+<tr><td>ETA-IL entry permits</td><td>$20</td></tr>
+</table>
+<div>
+<div class="total"><p class="k">Estimated total</p><p class="v">$7,660</p><p>≈ CA$3,830 each, all-in</p></div>
+<div class="saver"><h3>Want it cheaper?</h3><p>Fly Ethiopian (−$540) and stay at Abraham all four Tel Aviv nights (−$130) to bring it near $7,000. Late-January dates cut flights further.</p></div>
+</div>
+</div>
+<p class="note">Flights and hotels are live quotes from 13 Nov 2026. Car, food and activities are estimates.</p>
+</div></section>
+
+<section id="before" class="before"><div class="wrap">
+<p class="eyebrow">Before we book</p>
+<h2>Six things to sort out first</h2>
+<div class="tips" style="margin-top:32px">
+<div class="tip"><p class="num">1</p><div><h3>Check the travel advisory</h3><p>Canada says avoid non-essential travel to Israel (updated 29 Jul 2026). <a href="https://travel.gc.ca/destinations/israel-and-palestine" target="_blank" rel="noopener">Recheck before paying.</a></p></div></div>
+<div class="tip"><p class="num">2</p><div><h3>Book refundable + insure</h3><p>Flexible fares and hotels, plus insurance that covers Israel.</p></div></div>
+<div class="tip"><p class="num">3</p><div><h3>Apply for ETA-IL</h3><p>Canadians need this online entry permit (NIS 25). Apply a few weeks ahead.</p></div></div>
+<div class="tip"><p class="num">4</p><div><h3>Register with ROCA</h3><p>Canada’s Registration of Canadians Abroad, plus the Home Front Command app.</p></div></div>
+<div class="tip"><p class="num">5</p><div><h3>Plan around Shabbat</h3><p>No trains or buses Fri afternoon to Sat night. Pre-book Friday dinner.</p></div></div>
+<div class="tip"><p class="num">6</p><div><h3>Pack smart</h3><p>Layers (10–22 °C), modest clothes for the Kotel, water shoes for the Dead Sea.</p></div></div>
+</div>
+</div></section>
+
+<section class="close">
+<img src="img/telaviv.jpg" alt="Tel Aviv coastline at sunset" loading="lazy">
+<div class="wrap"><p class="eyebrow">Next step: book the flights, then the hotels</p><h2>See you in <i>March</i></h2></div>
+</section>
+
+<footer><div class="wrap">Prices from Google Flights and Google Hotels, 13 Nov 2026, and they change daily. Photos are AI-generated illustrations. <a href="script.html">Presenter script →</a></div></footer>
+
+<script>
+const io=new IntersectionObserver(es=>es.forEach(e=>{if(e.isIntersecting){e.target.classList.add('in');io.unobserve(e.target)}}),{threshold:.15});
+document.querySelectorAll('.reveal').forEach((el,i)=>{el.style.transitionDelay=(i%4)*80+'ms';io.observe(el)});
+</script>
+</body>
+</html>
